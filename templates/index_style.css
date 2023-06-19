@@ -47,15 +47,17 @@ body {
 .header-right a:hover {
     color: black;
 }
+
 #footer {
     margin-bottom: 5vh;
     text-align: center;
     font-size: 15px;
-  }
-  .logo {
+}
+
+.logo {
     margin-bottom: 10%;
     border-radius: 10px;
     margin-left: 2vw;
     height: 40px;
     width: 40px;
-  }
+}
