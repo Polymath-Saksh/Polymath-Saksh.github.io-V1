@@ -20,13 +20,13 @@ You can access the website at [https://sakshamkumar.live](https://sakshamkumar.l
 
 ## Features
 
-- Responsive design: The page is built using Bootstrap, ensuring that it adapts well to different screen sizes and devices.
-- Custom styling: CSS is used to add personalized styles and enhance the visual appeal of the page.
-- Interactive components: Bootstrap components are utilized to create interactive elements such as navigation menus, buttons, and forms.
+- Responsive design: The page is built using Bootstrap, ensuring  it adapts well to different screen sizes and devices.
+- Custom styling: CSS is used to add personalized styles and enhance the page's visual appeal.
+- Interactive components: Bootstrap components create interactive elements such as navigation menus, buttons, and forms.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License. For details, refer to the [LICENSE.md](LICENSE.md) file.
 
 ## Contact Information
 
@@ -34,8 +34,10 @@ You can reach out to me through the following channels:
 
 - Email: [saksh.kr03@gmail.com](mailto:saksh.kr03@gmail.com)
 
-- LinkedIn: [Saksham Kumar](https://www.linkedin.com/in/sakshamkr1/)
+- LinkedIn [Saksham Kumar](https://www.linkedin.com/in/sakshamkr1/)
+
+- Instagram: [Polymath_Saksh](https://www.instagram.com/polymath_saksh/)
 
 - GitHub: [polymath-saksh](https://github.com/polymath-saksh)
 
-Feel free to contact me for any inquiries or collaborations.
+Please feel free to contact me if you have any questions or collaborations.
