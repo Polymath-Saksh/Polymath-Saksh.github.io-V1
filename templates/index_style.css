@@ -1,63 +1,85 @@
-.navbar {
-    background-color: #ffffff;
-    height: 50px;
+#social-icons {
+    color: black;
+    margin: 5px;
+    height: 16px;
+    width: 16px;
+}
+
+.social {
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+.leftimg {
+    height: 1080px;
     width: 100%;
+    left: 0;
     position: fixed;
-    box-shadow: 0 2px 4px 0 rgba(22, 45, 61, .12), 0 0 6px 0 rgba(22, 45, 61, .12);
-    justify-content: space-between;
-    z-index: 4;
-    top: 0;
 }
 
-body {
-    overflow-x: hidden;
-    background-color: rgb(250, 217, 217);
-}
 
-.header {
-    text-transform: uppercase;
-    position: relative;
-    z-index: 2;
-    letter-spacing: 1px;
-    top: 8vh;
-    font-weight: 500;
-    font-size: medium;
-}
-
-.header-left {
-    margin-left: 4vw;
+.profilepic {
     float: left;
-    text-decoration: none;
-    color: black;
+    position: absolute;
+    margin-top: 60vh;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    height: 450px;
+    width: 430px;
+    z-index: 3;
+    border-radius: 20px;
 }
 
-.header-right {
-    text-decoration: none;
+.right {
     float: right;
-    margin-right: 4vw;
+    width: 50vw;
+    z-index: 3;
+    height: 100%;
+    left: 10%;
+    margin-top: 25vh;
+    margin-right: 0;
+    margin-left: 50%;
+    text-align: left;
+    right: 0px;
+    position: relative;
+
 }
 
-.header-right a {
-    text-transform: none;
+#right-intro h1 {
+    font-family: 'Candara';
+    font-size: 60px;
+    line-height: 1.1;
+
+}
+
+#right-bio p {
+    font-family: 'Geneva';
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 1.2;
+}
+
+#buttons a {
+    display: inline-block;
     text-decoration: none;
-    color: #832c0b;
-    transition: color 0.2s;
-}
-
-.header-right a:hover {
     color: black;
-}
-
-#footer {
-    margin-bottom: 5vh;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 10px 30px;
+    height: 50px;
+    width: 30vw;
+    font-size: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
     text-align: center;
     font-size: 15px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.logo {
-    margin-bottom: 10%;
-    border-radius: 10px;
-    margin-left: 2vw;
-    height: 40px;
-    width: 40px;
+#buttons a:hover {
+    background-color: black;
+    color: pink;
 }

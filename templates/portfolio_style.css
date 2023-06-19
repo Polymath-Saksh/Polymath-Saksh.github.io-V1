@@ -1,0 +1,33 @@
+#footer {
+  text-align: right;
+  font-size: 15px;
+  margin-top: 10vh;
+  margin-right: 5vw;
+}
+
+.content {
+  position: relative;
+  margin-top: 10vh;
+}
+
+.grid-container {
+  background-color: white;
+  margin-top: 20vh;
+  padding: 2vh 2vw 2vh 2vw;
+  display: grid;
+  margin-left: 10vw;
+  margin-right: 5vw;
+  width: 80vw;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1vh;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 2vh;
+}
+
+.grid-item {
+  margin-left: 2vw;
+  width: 77vw;
+  border: 1px solid black;
+  padding: 10px 10px 10px 10px;
+
+}
