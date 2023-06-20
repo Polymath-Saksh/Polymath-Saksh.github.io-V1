@@ -11,6 +11,7 @@
 }
 
 .grid-container {
+  font-family:'Cambria';
   background-color: white;
   margin-top: 20vh;
   padding: 2vh 2vw 2vh 2vw;
@@ -25,10 +26,10 @@
 }
 
 .grid-item {
+  font-family:Georgia;
   border-radius: 10px;
   margin-left: 2vw;
   width: 77vw;
   border: 1px solid black;
   padding: 10px 10px 10px 10px;
-
 }
