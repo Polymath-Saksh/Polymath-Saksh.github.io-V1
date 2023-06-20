@@ -7,9 +7,12 @@
 
 .content {
   position: relative;
-  margin-top: 10vh;
-  margin-left: 0vw;
-  margin-right:0;
+  margin-top: 20vh;
+  margin-left:10vw;
+  margin-right:5vw;
+  background-color: white;
+  padding:20px;
+  border: 1px solid rgba(0,0,0,0.4);
 }
 .back{
   margin-top: 10vh;

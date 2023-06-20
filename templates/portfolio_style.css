@@ -25,6 +25,7 @@
 }
 
 .grid-item {
+  border-radius: 10px;
   margin-left: 2vw;
   width: 77vw;
   border: 1px solid black;
