@@ -1,40 +1,42 @@
 #footer {
-  text-align: right;
-  font-size: 15px;
-  margin-top: 10vh;
-  margin-right: 5vw;
+	text-align: right;
+	font-size: 15px;
+	margin-top: 10vh;
+	margin-right: 5vw;
 }
 
 .content {
-  position: relative;
-  margin-top: 20vh;
-  margin-left:5vw;
-  border-radius: 20px;
-  margin-right:5vw;
-  background-color: white;
-  padding:20px;
-  width:90vw;
-  border: 1px solid rgba(0,0,0,0.4);
-}
-.back{
-  margin-top: 10vh;
-  margin-left:0;
-  margin-right:0;
-  position:fixed;
-  opacity: 0.9;
+	position: relative;
+	margin-top: 20vh;
+	margin-left: 5vw;
+	border-radius: 20px;
+	margin-right: 5vw;
+	background-color: white;
+	padding: 20px;
+	width: 90vw;
+	border: 1px solid rgba(0, 0, 0, 0.4);
 }
 
-h6, p {
-  font-family: sans-serif;
+.back {
+	margin-top: 10vh;
+	margin-left: 0;
+	margin-right: 0;
+	position: fixed;
+	opacity: 0.9;
+}
+
+h6,
+p {
+	font-family: sans-serif;
 }
 
 .c-heroImageGrid {
 	position: relative;
 	overflow: hidden;
 	height: 50vw;
-  margin-left:5vw;
-  margin-top: 20vh;
-  width: 90vw;
+	margin-left: 5vw;
+	margin-top: 20vh;
+	width: 90vw;
 	background: #fff;
 	margin-bottom: 60px;
 }
