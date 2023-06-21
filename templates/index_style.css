@@ -11,8 +11,8 @@
 }
 
 .leftimg {
-    height: 1080px;
-    width: 100%;
+    height: 110vh;
+    width: 50vw;
     left: 0;
     position: fixed;
 }
@@ -21,7 +21,7 @@
 .profilepic {
     float: left;
     position: absolute;
-    margin-top: 60vh;
+    margin-top: 57vh;
     left: 25%;
     transform: translate(-50%, -50%);
     height: 450px;
@@ -95,5 +95,5 @@
 
 #buttons a:hover {
     background-color: black;
-    color: pink;
+    color: #08c6ab;
 }

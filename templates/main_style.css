@@ -1,10 +1,10 @@
 body {
-  overflow-x: hidden;
-  background-color: rgb(250, 217, 217);
+  overflow-x:hidden;
+  background-color: #37465b;
 }
 
 .navbar {
-  background-color: #ffffff;
+  background-color: #212b38;
   height: 50px;
   width: 100%;
   position: fixed;
@@ -15,6 +15,7 @@ body {
 }
 
 .logo {
+  border: 2px solid #08c6ab;
   margin-bottom: 10%;
   border-radius: 10px;
   margin-left: 2vw;
@@ -37,10 +38,11 @@ body {
   float: left;
 
   text-decoration: none;
-  color: black;
+  color: #08c6ab;
 }
 
 .header-right {
+  
   text-decoration: none;
   float: right;
   word-spacing: 2vw;
@@ -50,7 +52,7 @@ body {
 .header-right a {
   text-transform: none;
   text-decoration: none;
-  color: #832c0b;
+  color: #08c6ab;
   transition: color 0.2s;
 }
 
