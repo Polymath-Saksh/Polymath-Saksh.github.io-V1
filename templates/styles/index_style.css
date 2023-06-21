@@ -1,5 +1,5 @@
 #social-icons {
-    color: black;
+    color: #5affe7;
     margin: 5px;
     height: 16px;
     width: 16px;
@@ -42,7 +42,7 @@
     text-align: left;
     right: 0px;
     position: relative;
-
+    color: #5affe7;
 }
 
 #right-intro h1 {
