@@ -79,7 +79,7 @@ p {
 	content: "";
 	width: 37vw;
 	height: 38vw;
-	background-image: url(templates\images\Art1.jpg);
+	background-image: url("\images\Art1.jpg");
 }
 
 
