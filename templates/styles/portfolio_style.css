@@ -33,4 +33,14 @@
   width: 77vw;
   border: 1px solid black;
   padding: 10px 10px 10px 10px;
+  animation:slide-left 1s forwards
+}
+@keyframes slide-left {
+  0%{
+    transform:translateX(-100vw);
+  }
+  100%{
+    transform:translateX(0);
+  }
+  
 }
