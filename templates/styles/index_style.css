@@ -1,15 +1,3 @@
-#social-icons {
-    color: #5affe7;
-    margin: 5px;
-    height: 16px;
-    width: 16px;
-}
-
-.social {
-    margin-top: 5vh;
-    margin-left: 10vw;
-}
-
 .leftimg {
     height: 110vh;
     width: 50vw;
@@ -18,14 +6,16 @@
     animation: left-slide 1s forwards;
 }
 
-@keyframes left-slide{
-    0%{
+@keyframes left-slide {
+    0% {
         transform: translateX(-100vw);
     }
-    100%{
+
+    100% {
         transform: translateX(0);
     }
 }
+
 .profilepic {
     float: left;
     position: absolute;
@@ -36,15 +26,17 @@
     width: 430px;
     z-index: 3;
     border-radius: 20px;
-    animation:slide-down 2s forwards;
+    animation: slide-down 2s forwards;
 }
-@keyframes slide-down{
-    0%{
+
+@keyframes slide-down {
+    0% {
         transition-delay: 2s;
-        transform:translateX(-1000px)
+        transform: translateX(-1000px)
     }
-    100%{
-        tranform:translateX(0);
+
+    100% {
+        tranform: translateX(0);
     }
 }
 
@@ -93,7 +85,7 @@
 
 @keyframes fade-up {
     0% {
-        transition-delay:1s;
+        transition-delay: 1s;
         opacity: 0;
         transform: translateY(-50px);
     }
@@ -141,6 +133,19 @@
     background-color: black;
     color: #08c6ab;
 }
-.social{
+
+.social {
     animation: fade-up 1s ease-out forwards;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+#social-icons {
+    color: #5affe7;
+    margin: 5px;
+    height: 16px;
+    width: 16px;
+}
+#social-icons:hover {
+    color: #08c6ab;
 }
