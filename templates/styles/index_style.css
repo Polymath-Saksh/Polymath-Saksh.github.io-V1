@@ -15,9 +15,17 @@
     width: 50vw;
     left: 0;
     position: fixed;
+    animation: left-slide 1s forwards;
 }
 
-
+@keyframes left-slide{
+    0%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
 .profilepic {
     float: left;
     position: absolute;
@@ -28,6 +36,16 @@
     width: 430px;
     z-index: 3;
     border-radius: 20px;
+    animation:slide-down 2s forwards;
+}
+@keyframes slide-down{
+    0%{
+        transition-delay: 2s;
+        transform:translateX(-1000px)
+    }
+    100%{
+        tranform:translateX(0);
+    }
 }
 
 .right {
@@ -51,6 +69,7 @@
     line-height: 1.1;
     overflow: hidden;
     white-space: nowrap;
+    animation-delay: 10s;
     animation: typing-fwd 2s forwards ease-out;
 }
 
@@ -74,6 +93,7 @@
 
 @keyframes fade-up {
     0% {
+        transition-delay:1s;
         opacity: 0;
         transform: translateY(-50px);
     }
@@ -108,12 +128,11 @@
 
 @keyframes right-slide {
     0% {
-        opacity: 0;
-        transform: translateX(-20px);
+        transition-delay: 2s;
+        transform: translateX(200vw);
     }
 
     100% {
-        opacity: 1;
         transform: translateX(0);
     }
 }

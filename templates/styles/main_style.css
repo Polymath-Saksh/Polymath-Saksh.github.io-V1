@@ -12,6 +12,16 @@ body {
   justify-content: space-between;
   z-index: 4;
   top: 0;
+  animation: down-slide 1s forwards;
+}
+
+@keyframes down-slide{
+  0%{
+    transform:translateY(-20vh);
+  }
+  100%{
+    transform:translateY(0);
+  }
 }
 
 .logo {
@@ -31,6 +41,15 @@ body {
   top: 8vh;
   font-weight: 500;
   font-size: medium;
+  animation:head-slide 0.5s forwards; 
+}
+@keyframes head-slide{
+  0%{
+    transform:translateX(-100vw);
+  }
+  100%{
+    transform:translateX(0);
+  }
 }
 
 .header-left {
