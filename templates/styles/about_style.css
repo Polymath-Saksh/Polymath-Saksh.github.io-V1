@@ -3,6 +3,7 @@
 	font-size: 15px;
 	margin-top: 10vh;
 	margin-right: 5vw;
+	color: #08c6ab;
 }
 
 .content {
@@ -16,8 +17,16 @@
 	padding: 20px;
 	width: 90vw;
 	border: 1px solid rgba(0, 0, 0, 0.4);
+    animation: slide-fwd 2s forwards ;
 }
-
+@keyframes slide-fwd {
+	from{
+		transform:translateX(50vw);
+	}
+	to{
+		transform:translateX(0vw);
+	}
+}
 .back {
 	margin-top: 10vh;
 	margin-left: 0;
@@ -40,6 +49,18 @@ p {
 	width: 90vw;
 	background: #fff;
 	margin-bottom: 60px;
+	animation:fader 2s forwards;
+}
+@keyframes fader {
+	0%{
+		transform:translateY(-50vw);
+		opacity: 0;
+	}
+	100%{
+		opacity:1;
+		transform:translateY(0);
+	}
+	
 }
 
 .c-heroImageGrid .container {
@@ -51,6 +72,7 @@ p {
 	transform: rotateZ(45deg);
 	height: 100vw;
 	width: 107vw;
+	
 }
 
 .c-heroImageGrid .container .column {
@@ -62,6 +84,7 @@ p {
 	border-right: 8px solid white;
 	width: 25%;
 	height: 66vw;
+	
 }
 
 .c-heroImageGrid .container .column:nth-of-type(1):hover {
