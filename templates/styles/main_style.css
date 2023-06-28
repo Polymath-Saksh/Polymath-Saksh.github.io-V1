@@ -1,5 +1,5 @@
 body {
-  overflow-x:hidden;
+  overflow-x: hidden;
   background-color: #37465b;
 }
 
@@ -15,12 +15,13 @@ body {
   animation: down-slide 1s forwards;
 }
 
-@keyframes down-slide{
-  0%{
-    transform:translateY(-20vh);
+@keyframes down-slide {
+  0% {
+    transform: translateY(-20vh);
   }
-  100%{
-    transform:translateY(0);
+
+  100% {
+    transform: translateY(0);
   }
 }
 
@@ -41,14 +42,16 @@ body {
   top: 8vh;
   font-weight: 500;
   font-size: medium;
-  animation:head-slide 0.5s forwards; 
+  animation: head-slide 0.5s forwards;
 }
-@keyframes head-slide{
-  0%{
-    transform:translateX(-100vw);
+
+@keyframes head-slide {
+  0% {
+    transform: translateX(-100vw);
   }
-  100%{
-    transform:translateX(0);
+
+  100% {
+    transform: translateX(0);
   }
 }
 
@@ -61,7 +64,7 @@ body {
 }
 
 .header-right {
-  
+
   text-decoration: none;
   float: right;
   word-spacing: 2vw;
