@@ -1,5 +1,3 @@
-
-
 # Personal Page - Saksham Kumar
 
 Welcome to my personal page repository! This page is hosted on GitHub Pages and can be accessed at [https://sakshamkumar.live](https://sakshamkumar.live).
@@ -28,6 +26,8 @@ You can access the website at [https://sakshamkumar.live](https://sakshamkumar.l
 
 This project is licensed under the MIT License. For details, refer to the [LICENSE.md](LICENSE.md) file.
 
+Code snippets from Bootstrap are used in this project. The license for Bootstrap can be found in the [LICENSE-BOOTSTRAP.md](LICENSE-BOOTSTRAP.md) file.
+
 ## Contact Information
 
 You can reach out to me through the following channels:
@@ -41,3 +41,5 @@ You can reach out to me through the following channels:
 - GitHub: [polymath-saksh](https://github.com/polymath-saksh)
 
 Please feel free to contact me if you have any questions or collaborations.
+
+Copyright (c) 2023 Saksham Kumar
