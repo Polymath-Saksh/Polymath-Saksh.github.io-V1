@@ -26,7 +26,7 @@ You can access the website at [https://sakshamkumar.live](https://sakshamkumar.l
 
 This project is licensed under the MIT License. For details, refer to the [LICENSE.md](LICENSE.md) file.
 
-Code snippets from Bootstrap are used in this project. The license for Bootstrap can be found in the [LICENSE-BOOTSTRAP.md](LICENSE-BOOTSTRAP.md) file.
+Code snippets from Bootstrap are used in this project.The respective owners hold the responsibility for their trademarks.
 
 ## Contact Information
 
